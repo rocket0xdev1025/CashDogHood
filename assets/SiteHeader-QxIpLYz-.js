@@ -1411,11 +1411,6 @@ function We() {
             }),
             (0, Z.jsx)(Q, {
               variant: `ghost`,
-              href: n.tiktok,
-              children: `TikTok`,
-            }),
-            (0, Z.jsx)(Q, {
-              variant: `ghost`,
               href: n.telegram,
               children: `Telegram`,
             }),
@@ -1425,25 +1420,6 @@ function We() {
               children: `Sticker Pack`,
             }),
           ],
-        }),
-        (0, Z.jsx)(`div`, {
-          className: `mt-6 flex justify-center`,
-          children: (0, Z.jsx)(`a`, {
-            href: n.geckoterminal,
-            target: `_blank`,
-            rel: `noopener noreferrer`,
-            "aria-label": `View $CASHDOG on GeckoTerminal`,
-            className: `inline-flex items-center border-4 border-border bg-background px-5 py-3 transition-colors hover:border-primary`,
-            children: (0, Z.jsx)(`img`, {
-              src: i.geckoTerminalBadge,
-              alt: `CASHDOG live chart on GeckoTerminal`,
-              loading: `lazy`,
-              decoding: `async`,
-              width: 200,
-              height: 28,
-              className: `h-6 w-auto sm:h-7`,
-            }),
-          }),
         }),
         (0, Z.jsx)(`p`, {
           className: `mx-auto mt-10 max-w-xl text-muted-foreground`,
